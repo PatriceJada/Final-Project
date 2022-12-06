@@ -52,21 +52,35 @@ body {
 
 </style>
 </head>
-<body>
-
-<div class="header">
-  <h1>My Recipe Book</h1>
-  <p>A website created by me.</p>
-</div>
-
 <div class="navbar">
+    <a href=" ">Home</a>
   <a href="#">Recipes</a>
   <a href="{% url 'addrecipe' %}">Add Recipe</a>
-  <a href="#">Link</a>
   <a href="#" class="right">Sign Up/Log In</a>
 </div>
+    <body style="background-color:powderblue;">
+        <h1>Add Your Recipe Here</h1>
+        <form>
+            <label for="recipe_book">Recipe Name: </label>
+            <input type="text" name="task">
 
+        </form>
+        <form>
+             <label for="recipe_book">Cook Time: </label>
+            <input type="text" name="task">
+        </form>
+            <form>
+             <label for="recipe_book">Description: </label>
+            <input type="text" name="task">
+        </form>        <form>
+             <label for="recipe_book">Ingredients: </label>
+            <input type="text" name="task">
+        </form>        <form>
+             <label for="recipe_book">Directions: </label>
+            <input type="text" name="task">
+            <input type="submit" value ="Enter">
+    </body>
 
-</body>
 </html>
 
+</form>

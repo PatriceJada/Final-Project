@@ -31,7 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'recipe_book',
     'homepage',
+    'addrecipe',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,7 +57,9 @@ ROOT_URLCONF = 'recipe_book.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/Users/patricemusoke/PycharmProjects/1051/Final_Project/Final-Project/recipe_book/recipe_book/templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
